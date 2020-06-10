@@ -52,7 +52,7 @@
         <a class="nav-link" href="reservas.html">Reservas<span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="automoviles.html">Automóviles<span class="sr-only"></span></a>
+        <a class="nav-link" href="automoviles.html">Vehículos<span class="sr-only"></span></a>
       </li>
     </ul>
   </div>
@@ -68,12 +68,26 @@
 
   <main role="main" class="container">
     <div class="jumbotron">
+
+      <form class="" action="menu.html">
+        <div class="form-group">
+          <label>Buscar reserva</label>
+          <input type="text" class="form-control" placeholder="Número, cliente, estado">
+        </div>
+        <button type="submit" class="btn btn-primary" style="float: right;">Buscar</button>
+      </form>
+      <br>
+      <br>
+      <hr>
+      <br>
+
       <table class="table">
 
   <thead>
     <tr>
       <th>Código</th>
       <th>Responsable</th>
+      <th>Clientes</th>
       <th>Monto</th>
       <th>Seña</th>
       <th>Fecha</th>
@@ -83,7 +97,6 @@
       <th>Habitaciones</th>
       <th>Check-in</th>
       <th>Modificar</th>
-      <th>Eliminar</th>
     </tr>
   </thead>
   <tbody>

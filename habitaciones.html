@@ -36,26 +36,26 @@
 
 <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="menu.html">Barrancas del Rio</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="habitaciones.html">Habitaciones<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="clientes.html">Clientes<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="reservas.html">Reservas<span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="automoviles.html">Automóviles<span class="sr-only"></span></a>
-      </li>
-    </ul>
-  </div>
+    <a class="navbar-brand" href="menu.html">Barrancas del Rio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="habitaciones.html">Habitaciones<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="clientes.html">Clientes<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reservas.html">Reservas<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="automoviles.html">Vehículos<span class="sr-only"></span></a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <div class="jumbotron">
@@ -68,73 +68,88 @@
 
   <main role="main" class="container">
     <div class="jumbotron">
+      <form class="" action="menu.html">
+        <div class="form-group">
+          <label>Buscar habitación</label>
+          <input type="text" class="form-control" placeholder="Número, piso, estado">
+        </div>
+        <button type="submit" class="btn btn-primary" style="float: right;">Buscar</button>
+      </form>
+    <br>
+    <br>
+    <hr>
+    <br>
+
+
+
       <table class="table">
 
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Tipo</th>
-      <th>Piso</th>
-      <th>Cantidad de Camas</th>
-      <th>Costo</th>
-      <th>Estado</th>
-      <th>Último servicio</th>
-      <th>Pedidos de reparación</th>
-      <th>Modificar</th>
-      <th>Eliminar</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Doble</td>
-      <td>1</td>
-      <td>2</td>
-      <td>500</td>
-      <td>Disponible</td>
-      <td>Hoy</td>
-      <td>0</td>
-      <td><button type="button" class="btn btn-secondary" style="margin-left: 10px;">M</button></td>
-      <td><button type="button" class="btn btn-secondary" style="margin-left: 10px;">E </button></td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-  </table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Tipo</th>
+            <th>Piso</th>
+            <th>Cantidad de Camas</th>
+            <th>Costo</th>
+            <th>Estado</th>
+            <th>Último servicio</th>
+            <th>Pedidos de reparación</th>
+            <th>Modificar</th>
+            <th>Eliminar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Doble</td>
+            <td>1</td>
+            <td>2</td>
+            <td>500</td>
+            <td>Disponible</td>
+            <td>Hoy</td>
+            <td>0</td>
+            <td><button type="button" class="btn btn-secondary">M</button></td>
+            <td><button type="button" class="btn btn-secondary">E </button></td>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </main>
 
